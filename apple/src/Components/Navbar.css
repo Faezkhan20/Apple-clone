@@ -1,0 +1,29 @@
+#navbar-screen{
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid green; */
+    position: sticky;
+    top: 0;
+    background-color: #1D1D1F;
+}
+#navbar-screen > div{
+    height: 30px;
+    width: 78%;
+    margin-top: 10px;
+    margin: auto;
+    /* border: 1px solid red; */
+    color: rgb(185, 185, 185);
+    display: flex;
+    justify-content: space-between;
+}
+#navbar-screen > div > p{
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+#navbar-screen > div > i{
+    margin-top: 10px;
+}
+#applebuypagebottom{
+    
+}

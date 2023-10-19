@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#bluediv {
+    background-color: #1c2739;
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+#bluediv :nth-child(1) {
+    margin-top: 11px;
+    color: #e4d8c2;
+    font-size: 14px;
+
+
+}
+
+#bluediv :nth-child(2) {
+    color: rgb(68, 68, 230);
+    margin-top: 10px;
+    text-decoration: underline;
+    font-size: 14px;
+    margin-left: 5px;
+
+}
+
+#blackmaindiv {
+    height: 650px;
+    width: 100%;
+    background-color: black;
+    border: 1px solid black;
+}
+
+#blackmaindiv :nth-child(1) {
+    color: grey;
+    /* border: 1px solid red; */
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-top: 150px;
+    font-size: 25px;
+    line-height: 1.1904761905;
+    font-weight: 600;
+    letter-spacing: .011em;
+}
+
+#blackmaindiv :nth-child(2) {
+    width: 78%;
+    height: 250px;
+    margin: auto;
+    background-image: url("https://www.apple.com/v/iphone-15-pro/b/images/overview/welcome/hero__iztc7m63bfiy_large.jpg");
+
+}
+
+#blackmaindiv :nth-child(3) {
+    /* border: 1px solid red; */
+    margin: auto;
+    border-radius: 50px;
+    height: 35px;
+    width: 80px;
+    background-color: #0071e3;
+    color: white;
+    font-size: 20px;
+    padding-top: 5px;
+    margin-top: 20px;
+
+}
+
+#blackmaindiv :nth-child(4) {
+    /* border: 1px solid red; */
+    height: 40px;
+    width: fit-content;
+    margin: auto;
+    color: white;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 600;
+
+
+
+
+}
+
+#greydiv {
+    background-color: #101010;
+    border: 1px solid #101010;
+    width: 100%;
+    height: 4000px;
+    
+}
+
+#greydiv :nth-child(1) {
+    /* border: 1px solid red; */
+    font-size: 52px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    color: #86868b;
+    width: fit-content;
+    margin-top: 170px;
+    margin-left: 120px;
+
+}
+
+#greydivblue {
+    /* border: 1px solid red; */
+    width: 400px;
+    height: 40px;
+    margin-left: 1000px;
+    margin-top: -40px;
+    color: #2995fc;
+    display: flex;
+
+
+}
+
+#greydivblue :nth-child(1) {
+    /* border: 1px solid red; */
+    width: 200px;
+    height: 30px;
+    margin-top: -0px;
+    margin-left: -1px;
+    font-size: 20px;
+   color: #2995fc;
+
+
+
+}
+
+#greydivblue :nth-child(2) {
+    /* border: 1px solid red; */
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+
+
+}
+#applechip{
+    border: 1px solid black;
+    width: 85%;
+    border-radius: 40px;
+    background-color: black;
+    height: 600px;
+    margin: auto;
+    margin-top: 40px;
+}
+#applechip :nth-child(1){
+    /* border: 1px solid red; */
+    width: 100%;
+    margin: auto;
+    height: 600px;
+    margin-top: 0px;
+
+}
+#applechip :nth-child(1) video{
+    /* border: 1px solid red; */
+    width: 100%;
+    margin: auto;
+    height: 550px;
+    margin-top: 46px;
+    
+
+}
+#videodivchip{
+    /* border: 1px solid red; */
+    width: 200px;
+    color: white;
+    height: 40px;
+    margin-top: -610px;
+    margin-left: 70px;
+    font-size: 18px;
+}
+#takeacloser{
+    width: 100%;
+    height: 1000px;
+    border: 1px solid black;
+    background-color: black;
+    margin-top: 270px;
+}
+#takeacloser :nth-child(2){
+    /* border: 1px solid red; */
+    width: 36%;
+    height: 470px;
+    margin: auto;
+    margin-top: 80px;
+    background-image: url(https://www.apple.com/in/iphone-15-pro/images/overview/closer-look/all_colors__eppfcocn9mky_large.jpg);
+
+}
+#takeacloser :nth-child(1){
+    /* border: 1px solid red; */
+    width: 600px;
+    height: 60px;
+    font-size: 50px;
+    color: #818186;
+    margin-top: 200px;
+    margin-left: 50px;
+
+}
+#explorethefull{
+    width: fit-content;
+    /* border: 1px solid red; */
+    height: 60px;
+    margin-top: 150px;
+    margin-left: 120px;
+    color: #86868b;
+    font-size: 50px;
+    font-weight: bold;
+}
+#iphoneforged{
+    color: white;
+    width: 400px;
+    font-size: 65px;
+    bottom: 1px solid red;
+    margin-top: 100px;
+    margin-left: 190px;
+    font-weight: bold;
+    
+}
+#iphoneforgedd{
+    color: white;
+    width: 600px;
+    font-size: 65px;
+    bottom: 1px solid red;
+    margin-top: -20px;
+    margin-left: 270px;
+    font-weight: bold;
+    
+}
+#bodythreeone{
+    border: 1px solid  black;
+    width: 65%;
+    margin: auto;
+    height: 450px;
+    /* background-image: url(data:image/jpeg;base64,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); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* margin-top: 20px; */
+
+}
+#bodythreeone video{
+    /* border: 1px solid red; */
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    /* background-image: url(data:image/jpeg;base64,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); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    margin-top: -160px;
+
+}
+#bodythreetwo{
+    width: 32%;
+    /* border: 1px solid red; */
+    height: 500px;
+    background-image: url(https://www.apple.com/v/iphone-15-pro/b/images/overview/design/lightest__boybgwifuehe_large.jpg);
+     margin-left: 268px;
+}
+#bodythreethree{
+    width: 32%;
+    /* border: 1px solid red; */
+    height: 500px;
+    background-image:url(https://www.apple.com/v/iphone-15-pro/b/images/overview/design/durable__omxi3w443rue_large.jpg);
+     margin-left: 768px;
+     margin-top: -500px;
+     /* background-position: center; */
+     background-size: cover;
+     /* background-position: -100px; */
+     background-repeat: no-repeat;
+     
+}
+#forgedtext{
+border: 1px solid red;
+width: 100%;
+margin: auto;
+margin-top: 30px;
+height: 200px;
+display: flex;
+justify-content: space-around;
+color: white;
+
+
+  
+    
+}
+.apple15-body4-p{
+    height: 200px;
+    width: 65%;
+    margin: auto;
+    margin-top: -280px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid white; */
+}
+.apple15-body4-p > div{
+    height: 100%;
+    width: 40%;
+    /* border: 1px solid white; */
+    font-size: 21.3px;
+    color: grey;
+    font-weight: 500;
+    text-align: left;
+}
+#white{
+    color: white;
+}
+
+
+
