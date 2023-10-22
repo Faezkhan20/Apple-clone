@@ -3,7 +3,7 @@
     padding: 0;
 }
 .applecart{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
     height: 2100px;
 }
@@ -425,27 +425,193 @@ margin-right: 10px;
     border-bottom: 1px solid grey;
 }
 .youmaymain{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
-    width: 75%;
-    height: 400px;
+    width: 65%;
+    height: 550px;
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
 }
 .youmaymain > div{
-width: 23%;
-border: 1px solid red;
+width: 26%;
+/* border: 1px solid red; */
 height: 100%;
+/* margin-top: 40px; */
 }
 .youmay1 :nth-child(1){
     width: 100%;
-    height: 80%;
-    margin-top: 10px;
+    height: 45%;
+    margin-top: 20px;
     /* border: 1px solid red; */
 }
-.youmay1 :nth-child(2){
-    border: 10px solid red;
-    width: 100%;
-    height: 100px;
+.youmay1{
+    text-align: left;
 
+}
+.usbyoumay{
+    font-size: 17px;
+    text-align: left;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+}
+.addtobag{
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: #0071e3;
+}
+.addtobagbutton{
+    width: 100%;
+    height: 50px;
+    margin-top: 157px;
+    border-radius: 10px;
+    background-color: #0071e3;
+    color: white;
+    border: none;
+}
+.newyoumay{
+    margin-bottom: 10px;
+    color: brown;
+    text-align: left;
+}
+.addtobagbutton2{
+    width: 100%;
+    height: 50px;
+    margin-top: 120px;
+    border-radius: 10px;
+    background-color: #0071e3;
+    color: white;
+    border: none;
+}
+.youmaytop{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0;
+    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    padding-top: 63px;
+}
+.youmay2 :nth-child(1){
+    width: 100%;
+    height: 45%;
+    margin-top: 0px;
+    /* border: 1px solid red; */
+}
+.usbdiv2{
+    text-align: left;
+}
+.moreproduct{
+    /* border: 1px solid red; */
+    margin-top: 40px;
+    color: #0071E3;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.mainnewarrival{
+    /* margin-top: 20px; */
+    font-size: 17px;
+    /* margin-bottom: 20px; */
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    /* background-color: #d61717cc; */
+    color: #1d1d1f;
+    font-style: normal;
+    /* border: 1px solid red; */
+    width: 70%;
+    margin: auto;
+    height: 400px;
+    position: relative;
+}
+.newarrivaltext{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.newarrivaltext2{
+    position: absolute;
+    top: 50%;
+    left: 18%;
+}
+.newarrivalshop{
+    position: absolute;
+    top: 57%;
+    left: 26.6%;
+    color: #0071E3;
+}
+.newarrivalshop i{
+    margin-top: 5px;
+}
+.bottomline6{
+    border-bottom: 1px solid grey;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.questionbuy{
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    margin: auto;
+    width: 70%;
+}
+.questionbuy :nth-child(1){
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.lastgrey{
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+    border: 1px solid  #f5f5f5;
+    background-color: #f5f5f5;
+}
+.lasttextinside{
+    width: 70%;
+    /* border: 1px solid red; */
+    height: 100%;
+    margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.lastspangrey{
+    font-size: 12px;
+    
+}
+.store-footer {
+    width: 65%;
+    height: 250px;
+    /* border: 1px solid red; */
+    font-size: 11px;
+    margin: auto;
+    color: rgb(122, 121, 121);
+    text-align: left;
+    padding-top: 5px;
+    word-spacing: 1.5px;
+    /* margin-bottom: 1400px; */
+   
+}
+.store-foot-text {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    background-color: #f5f5f7;
 }

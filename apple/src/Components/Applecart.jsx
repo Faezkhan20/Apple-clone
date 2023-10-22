@@ -1,6 +1,7 @@
 import React from 'react'
 import './Applecart.css'
 import Navbar from './Navbar'
+import Footer from './Footer'
 
 const Applecart = () => {
   return (
@@ -198,15 +199,54 @@ const Applecart = () => {
         <span> or call 000800 040 1966.</span>
       </div>
       <div className='bottomline5'></div>
+      <div className='youmaytop'>You may also like</div>
       <div className='youmaymain'>
         <div className='youmay1'>
-          <div>
-            <img id='youmay1img' width="100%" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MU862?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1591824860000" alt="" /></div>
+
+          <img id='youmay1img' width="100%" height="100%" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MU862?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1591824860000" alt="" />
+          <div className='usbyoumay'>20W USB-C Power Adapter</div>
+          <div>MRP ₹1900.00</div>
+          <div>(Incl. of all taxes)</div>
+          <button className='addtobagbutton'>Add to bag</button>
         </div>
-        <div></div>
-        <div className='youmay2'></div>
-        <div className='youmay3'></div>
+
+        <div className='youmay2'>
+          <img id='youmay2img' width="100%" height="100%" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT233?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1693248327138" alt="" />
+          <div className='newyoumay'>New</div>
+          <div className='usbyoumay'>iPhone 15 Pro Max Clear Case with MagSafe</div>
+          <div className='usbdiv2'>MRP ₹4900.00</div>
+          <div className='usbdiv2'>(Incl. of all taxes)</div>
+          <button className='addtobagbutton2'>Add to bag</button>
+        </div>
+        <div className='youmay2'>
+          <img id='youmay2img' width="100%" height="100%" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4H3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1693594178658" alt="" />
+          <div className='newyoumay'>New</div>
+          <div className='usbyoumay'>iPhone 15 Pro FineWoven Case with MagSafe - Black</div>
+          <div className='usbdiv2'>MRP ₹5900.00</div>
+          <div className='usbdiv2'>(Incl. of all taxes)</div>
+          <button className='addtobagbutton2'>Add to bag</button>
+        </div>
       </div>
+      <div className='moreproduct'>Show more product<i class="fa-solid fa-chevron-down"></i></div>
+      <div className='mainnewarrival'>
+
+        <img height="100%" width="100%" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/apple-new-arrivals-checkout-201804?wid=980&hei=400&fmt=jpeg&qlt=95&.v=1523551959954" alt="" />
+        <div className='newarrivaltext'>New Arrivals</div>
+        <div className='newarrivaltext2'>Check out the latest accessories.</div>
+        <div className='newarrivalshop'>Shop<i class="fa-solid fa-angle-right"></i></div>
+      </div>
+      <div className='bottomline6'></div>
+      <div className='questionbuy'>
+        <div>Questions About Buying</div>
+        <div><i class="fa-solid fa-plus"></i></div>
+      </div>
+      {/* <div className='lastgrey'>
+        <div className='lasttextinside'>
+
+          
+        </div>
+      </div> */}
+      <Footer/>
     </div>
   )
 }

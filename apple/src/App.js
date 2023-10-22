@@ -8,6 +8,8 @@ import Applebuypage from './Components/Applebuypage';
 import Signin from './Components/Signin';
 import Signup from './Components/Signup';
 import Applecart from './Components/Applecart';
+import Applesingleproduct from './Components/Applesingleproduct';
+import Products from './Components/Products';
 
 
 function App() {
@@ -23,6 +25,9 @@ function App() {
         <Route path='/signin' element={<Signin/>} />
         <Route path='/signup' element={<Signup/>} />
         <Route path='/applecart' element={<Applecart/>} />
+        <Route path='/Applesingleproduct' element={<Applesingleproduct/>}/>
+        <Route path='/Products' element={<Products/>}/>
+
 
       </Routes>
       {/* <Footer/> */}

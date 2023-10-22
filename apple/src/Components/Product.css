@@ -1,0 +1,28 @@
+.Productscreen{
+    border: 1px solid red;
+    height: 2000px;
+    width: 100%;
+}
+.mainproduct{
+    border: 1px solid red;
+    width: 90%;
+    margin: auto;
+    height: 1000px;
+}
+.mainh2{
+    text-align: left;
+}
+.productbody{
+    border: 1px solid red;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+}
+.products-single{
+    border: 1px solid green;
+    height: 450px;
+    width: 32%;
+    border-radius: 10px;    
+}
