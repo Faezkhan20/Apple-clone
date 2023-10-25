@@ -81,7 +81,21 @@ const Applesingleproduct = () => {
           
           </div>
         </div>
-        <div className='asp-footer'></div>
+        <div className='asp-footer'>
+          <div className='aspfooter2'>
+            <div>Flexible ways to pay
+              <p>No Cost EMI§ and EMI◊◊ available.</p>
+            </div>
+            <div>Apple Trade In
+              <p>Trade in your eligible device for credit</p>
+              <p>towards your next purchase.*</p>
+            </div>
+            <div>Free delivery and pickup.
+              <p>Get free delivery or pick up at your Apple</p>
+              <p>store</p>
+            </div>
+          </div>
+        </div>
 
       </div>
       
