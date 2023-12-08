@@ -1,12 +1,48 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Signup.css'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import { useNavigate } from 'react-router-dom'
+import toast from 'react-hot-toast'
+import api from '../Helpers/Axiosconfig'
 
 const Signup = () => {
+    const router = useNavigate()
+
+  const [data, setdata] = useState({name:"", email: "", password: "",lastname:"",confirmPassword:"" });
+  console.log(data, "user")
+  const handleChange = (event) => {
+    // console.log(event.target.value, "value", event.target.name, "name")
+    setdata({ ...data, [event.target.name]: event.target.value })
+  }
+
+  async function HandleSubmit(event) {
+    event.preventDefault();
+ 
+      if (data.password.length >= 8) {
+        try {
+          const response = await api.post("/auth/register", { data })
+          if(response.data.success) {
+            toast.success(response.data.message)
+            setdata({ name:"",email: "", password: "",lastname:"",confirmPassword:""})
+            router("/signin")
+          } else {
+            throw new Error("Something went wrong");
+          }
+        } catch (error) {
+          toast.error(error.message);
+          console.log(error, 'error hai')
+        }
+      } else {
+        toast.error("Password must be 8 digit")
+      }
+  
+  }
+
     return (
         <div id='apple-reg-screen'>
             <Navbar/>
+            <form onSubmit={HandleSubmit}>
             <div className='apple-reg-top'>
                 <div>
                     <h2>Apple ID</h2>
@@ -23,8 +59,8 @@ const Signup = () => {
                     <h1 className='apple-reg-top-h1'>Create Your Apple ID</h1>
                     <span className='apple-reg-top-span'>One Apple ID is all you need to access all Apple services.</span>
                     <div className='apple-reg-name'>
-                        <input placeholder='first name' />
-                        <input placeholder='last name' />
+                        <input placeholder='first name' onChange={handleChange} name='name' />
+                        <input placeholder='last name' onChange={handleChange} name='lastname' />
                     </div>
                     <p className='apple-reg-country-p'>COUNTRY / REGION</p>
                     <select className='apple-select'>
@@ -38,10 +74,10 @@ const Signup = () => {
                 <h1 className='apple-reg-line'></h1>
                 <div className='apple-reg-innerbodytwo'>
                     <div id='nameex'>
-                        <input type="text" placeholder='name@example.com' />
+                        <input type="text" placeholder='name@example.com' name='email' onChange={handleChange} />
                         <span>This will be your new Apple ID.</span>
-                        <input type="password" placeholder='password' />
-                        <input type="password" placeholder='confirm password' />
+                        <input type="password" placeholder='password' name='password' onChange={handleChange} />
+                        <input type="password" placeholder='confirm password' name='confirmPassword' onChange={handleChange} />
 
                     </div>
 
@@ -99,16 +135,18 @@ const Signup = () => {
                     <div><img src="https://appleid.cdn-apple.com/static/bin/cb230738313/dist/assets/privacy-icon@2x.png" alt="" /></div>
                     <div id='lastdatap'>
                         <span>Your Apple ID information is used to allow you to sign in securely and access your <br /> data. Apple records certain data for security, support and reporting purposes. If you <br /> agree, Apple may also use your Apple ID information to send you marketing emails <br /> and communications, including based on your use of Apple services. <span id='seehowblue' > See how your <br /> data is managed.</span></span>
-                       <div></div> <button className='apple-reg-last-button'>Continue</button>
+                       <div></div> <input type='submit' value="register" className='apple-reg-last-button'></input>
                     </div>
             
                 </div>
               
             </div>
+            </form>
             <div id='signupfooter'>
                 <span>More ways to shop <span id='seehowblue'>: Find a retailer</span> near you. Or call 000800 040 1966.</span>
             </div>
             <Footer/>
+            
         </div>
     )
 }

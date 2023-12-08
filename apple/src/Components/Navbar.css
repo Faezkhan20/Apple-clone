@@ -24,6 +24,26 @@
 #navbar-screen > div > i{
     margin-top: 10px;
 }
-#applebuypagebottom{
-    
+#userapple{
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    background-color: #1D1D1F;
+    color: grey;
+    display: flex;
+    /* border: 1px solid red; */
+    width: 130px;
+    justify-content: space-between;
+}
+#userapple h4{
+    color: white;
+    margin-top: -3px;
+}
+#userapple button{
+    background-color: #1D1D1F;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+
 }
